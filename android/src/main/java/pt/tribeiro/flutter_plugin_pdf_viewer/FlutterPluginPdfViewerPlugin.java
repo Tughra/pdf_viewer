@@ -12,10 +12,11 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FilenameFilter;
 
-import io.flutter.plugin.common.MethodCall;
+import androidx.annotation.NonNull;
+import io.flutter.embedding.android.FlutterActivity;
+import io.flutter.embedding.engine.FlutterEngine;
 import io.flutter.plugin.common.MethodChannel;
-import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
-import io.flutter.plugin.common.MethodChannel.Result;
+import io.flutter.plugins.GeneratedPluginRegistrant;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
